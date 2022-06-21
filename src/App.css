@@ -95,6 +95,10 @@ ul {
   border-radius: 10px;
   background: linear-gradient(60deg, rgb(26, 170, 98), rgb(11, 135, 167));
 }
+.form h2 {
+  color: #fff;
+  margin-bottom: 10px;
+}
 .form .inputs {
   margin-bottom: 10px;
 }
@@ -102,6 +106,9 @@ ul {
   border-radius: 5px;
   margin: 2px;
   border: none;
+}
+.form span {
+  margin-right: 1px;
 }
 .firstdiv-form {
   width: 100%;

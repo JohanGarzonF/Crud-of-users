@@ -25,6 +25,7 @@ const Form = ({register, reset, handleSubmit, createUser, setIsShow, updateUser,
   return (
     <form onSubmit={handleSubmit(submit)} className='form-container'>
       <div className='form'>
+        <h2>New User</h2>
         <div className='inputs firstdiv-form'>
           <span><i className="fa-solid fa-user"></i></span>
           <input type="text" id='name' {...register('first_name')}  placeholder='first name' className='size2'/>
