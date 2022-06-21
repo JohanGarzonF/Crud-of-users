@@ -66,7 +66,7 @@ const UserList = () => {
 
   return (
     <div>
-      <button onClick={active} className='button-create btn'>{isShow ? 'Hide Form': 'Create New User'}</button>
+      <button onClick={active} className='button-create btn'>{isShow ? 'Cancel': 'Create New User'}</button>
       {
         isShow &&
           <Form

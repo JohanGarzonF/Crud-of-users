@@ -69,7 +69,8 @@ ul {
 .btn_container button {
   font-size: 20px;
   background-color: transparent;
-  border: none;
+  border: none; 
+  cursor: pointer;
 }
 .blue{
   color: rgb(2, 80, 247);
