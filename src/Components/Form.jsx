@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Form = ({register, reset, handleSubmit, createUser, setIsShow, updateUser,objectUpdate}) => {
+const Form = ({register, reset, handleSubmit, createUser, setIsShow, updateUser,objectUpdate, }) => {
 
   const resetForm = {
     first_name: '',
@@ -43,7 +43,8 @@ const Form = ({register, reset, handleSubmit, createUser, setIsShow, updateUser,
           <span><i className="fa-solid fa-calendar"></i></span>
           <input type="date" id='birthday' {...register('birthday')} className='size'/>
         </div>
-        <button className='btn'>Send</button>
+        <button className='btn btn-form'>Send</button>
+        <button className='btn btn-form' onClick={() => setIsShow(false)}>Cancel</button>
       </div>
     </form>
   )
