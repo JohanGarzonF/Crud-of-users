@@ -1,0 +1,124 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+  background: linear-gradient(60deg, rgb(26, 170, 98), rgb(11, 135, 167));
+  color: #fff;
+  box-shadow: 1px 1px 10px rgb(0, 0, 0);
+  cursor: pointer;
+  transition: box-shadow 1s;
+}
+.btn:active {
+  box-shadow: none;
+  transform: scale(0.98);
+  transition: box-shadow 1s;
+}
+.App {
+  text-align: center;
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(60deg, rgb(26, 170, 98), rgb(11, 135, 167));
+}
+.button-create {
+  position: relative;
+  z-index: 9;
+  margin-top: 10px;
+}
+.list_container{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.card_users {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #fff;
+  width: 400px;
+  height: 100px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 10px rgb(73, 72, 72);
+}
+.card_info{
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn_container{
+  display: flex;
+  align-items: center;
+}
+.btn_container button {
+  font-size: 20px;
+  background-color: transparent;
+  border: none;
+}
+.blue{
+  color: rgb(2, 80, 247);
+}
+.red{
+  color: rgb(199, 45, 45);
+}
+.form-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(5, 5, 5, 0.466);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.form {
+  padding: 20px;
+  border-radius: 10px;
+  background: linear-gradient(60deg, rgb(26, 170, 98), rgb(11, 135, 167));
+}
+.form .inputs {
+  margin-bottom: 10px;
+}
+.form input {
+  border-radius: 5px;
+  margin: 2px;
+  border: none;
+}
+.firstdiv-form {
+  width: 100%;
+}
+.inputs .size {
+  width: 93%;
+}
+@media (max-width: 500px) {
+  .firstdiv-form {
+    width: 100%;
+  }
+  .size2{
+    width: 40%;
+  }
+  .inputs .size {
+    width: 82%;
+  }
+  .form {
+    width: 300px;
+  }
+}
