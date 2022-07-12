@@ -35,7 +35,11 @@ ul {
   text-align: center;
   min-height: 100vh;
   width: 100vw;
-  background: linear-gradient(60deg, rgb(26, 170, 98), rgb(11, 135, 167));
+  background-image: url('../src/Storage/Img/backgroundCrud.jpg');
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .button-create {
   position: relative;
@@ -109,6 +113,7 @@ ul {
   margin-bottom: 10px;
 }
 .form input {
+  padding: 5px 2px;
   border-radius: 5px;
   margin: 2px;
   border: none;
